@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-label="Illustrated avatar of a web developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="640" height="640" rx="56" fill="url(#bg)"/>
+  <circle cx="110" cy="120" r="95" fill="#ffffff" opacity="0.08"/>
+  <circle cx="545" cy="520" r="140" fill="#ffffff" opacity="0.08"/>
+  <circle cx="600" cy="90" r="38" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Decorative code symbols -->
+  <g fill="#ffffff" opacity="0.28" font-family="'JetBrains Mono', Consolas, monospace" font-weight="700">
+    <text x="52" y="96" font-size="54">&lt;/&gt;</text>
+    <text x="470" y="592" font-size="46">{ }</text>
+  </g>
+
+  <!-- Avatar -->
+  <g>
+    <path d="M320 336c-96 0-172 62-172 140v96c0 14 11 25 25 25h294c14 0 25-11 25-25v-96c0-78-76-140-172-140z" fill="url(#shirt)"/>
+    <path d="M320 336c-34 0-64 6-88 18l46 62h84l46-62c-24-12-54-18-88-18z" fill="#f8fafc" opacity="0.92"/>
+    <circle cx="320" cy="248" r="88" fill="#f8fafc"/>
+    <path d="M232 240c0-52 40-92 88-92s88 40 88 92c0 10-2 20-6 29-14-30-44-50-82-50s-68 20-82 50c-4-9-6-19-6-29z" fill="#334155"/>
+    <circle cx="290" cy="256" r="9" fill="#334155"/>
+    <circle cx="350" cy="256" r="9" fill="#334155"/>
+    <path d="M298 292c14 12 30 12 44 0" stroke="#334155" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

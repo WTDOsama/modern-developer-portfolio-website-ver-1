@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Preview of a responsive weather application showing temperature, city name and a weekly forecast">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <circle cx="648" cy="108" r="58" fill="#fde68a"/>
+  <circle cx="648" cy="108" r="86" fill="#fde68a" opacity="0.25"/>
+
+  <g fill="#ffffff" opacity="0.92">
+    <ellipse cx="190" cy="150" rx="72" ry="44"/>
+    <ellipse cx="244" cy="166" rx="54" ry="34"/>
+    <ellipse cx="140" cy="172" rx="48" ry="30"/>
+  </g>
+
+  <rect x="130" y="232" width="540" height="316" rx="30" fill="url(#card)"/>
+  <text x="176" y="342" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="78" font-weight="800" fill="#1e293b">24&#176;C</text>
+  <text x="176" y="392" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="30" fill="#64748b">San Francisco</text>
+  <text x="176" y="428" font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif" font-size="20" fill="#94a3b8">Partly cloudy &#183; Humidity 62%</text>
+
+  <g>
+    <rect x="176" y="456" width="86" height="66" rx="16" fill="#dbeafe"/>
+    <rect x="276" y="456" width="86" height="66" rx="16" fill="#e0e7ff"/>
+    <rect x="376" y="456" width="86" height="66" rx="16" fill="#dbeafe"/>
+    <rect x="476" y="456" width="86" height="66" rx="16" fill="#e0e7ff"/>
+    <g fill="#4338ca" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+      <text x="219" y="498">Mon</text>
+      <text x="319" y="498">Tue</text>
+      <text x="419" y="498">Wed</text>
+      <text x="519" y="498">Thu</text>
+    </g>
+  </g>
+</svg>
